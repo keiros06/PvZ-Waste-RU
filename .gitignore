@@ -1,0 +1,57 @@
+# Release artifacts and staging
+/dist/
+/release/
+/releases/
+/artifacts/
+/build/
+/publish/
+/staging/
+/tmp/
+/temp/
+/out/
+/output/
+/ui_for_artist/
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.partial
+
+# Logs, dumps and temporary files
+*.log
+*.dmp
+*.stackdump
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+*.lock
+*.cache
+
+# Generated caches and intermediate builds
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+bin/
+obj/
+
+# Editor and operating-system clutter
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.DS_Store
+Thumbs.db
+Desktop.ini
